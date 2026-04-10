@@ -24,6 +24,7 @@ public class maximumNof1 {
 			count+=arr[i]-arr[i-k];
 			if(count>maxcount) {
 				maxcount=count;
+				
 			}
 		}
 		System.out.println("maximum number of 1s is :"+maxcount);
